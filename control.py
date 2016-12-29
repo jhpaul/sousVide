@@ -1,11 +1,9 @@
-import tempRead
 import switch
 import time
 
-temp = tempRead.read_temp()
-setTemp = 100
 
-while True:
+#while True:
+def controlPower(temp, setTemp)
 	if temp < setTemp:
 		print "low, "+str(temp)
 		switch.setPower(1)
