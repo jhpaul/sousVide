@@ -8,8 +8,10 @@ power_pin = 18
 io.setup(power_pin, io.OUT)
 io.output(power_pin, False)
 
-time.sleep(5)
-io.output(power_pin, True)
-time.sleep(5)
-io.output(power_pin,False)
+
+def setPower(status):
+	if status == 1:
+		io.output(power_pin, True)
+	if status == 0: 
+		io.output(power_pin, False)
 
