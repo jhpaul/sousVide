@@ -1,0 +1,6 @@
+/home/pi/sousVide/switch.py:8: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  io.setup(power_pin, io.OUT)
+Traceback (most recent call last):
+  File "./cliControl", line 18, in <module>
+    time.sleep(2)
+KeyboardInterrupt
