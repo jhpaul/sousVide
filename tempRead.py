@@ -3,7 +3,8 @@ import glob
 import time
 import subprocess
 import logging
-logging.basicConfig(filename='tempLog.csv',level=logging.DEBUG)
+from datetime import datetime
+logging.basicConfig(filename='tempLog2.csv',level=logging.DEBUG)
 
 os.system('modprobe w1-gpio')
 os.system('modprobe w1-therm')

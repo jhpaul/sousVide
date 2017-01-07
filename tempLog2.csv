@@ -1,0 +1,1361 @@
+INFO:root:,low,120,60.35,2017-01-07 23:14:53.854730
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:14:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:14:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:14:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:14:57] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,120,60.35,2017-01-07 23:14:57.524638
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:14:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:14:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:00] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,120,60.35,2017-01-07 23:15:01.195495
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:04] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,120,60.35,2017-01-07 23:15:04.864577
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:05] "POST /temp?setTemp=130 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:08] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:08.534751
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:11] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:12.204651
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:15] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:15.874632
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:19] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:19.544659
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:22] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:23.204002
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:24] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:26] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:26.874623
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:30] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:30.544659
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:80/
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:33] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:34.203964
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:37] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:37.863944
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:39] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:41] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:41.534673
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:42] "POST /temp?setTemp=130 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:44] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:45.204625
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:48] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:48.874980
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:49] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:52] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:52.544626
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:53] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:55] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,130,60.35,2017-01-07 23:15:56.214595
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:58] "POST /temp?setTemp=140 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:15:59] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:15:59.885137
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:03] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:03.555582
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:06] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:07.225179
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:10] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:10.894583
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:14] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:14.564622
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:17] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:18.234665
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:21] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:21.903899
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:24] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:25] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:25.574610
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:28] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:29.234620
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:32] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:32.904599
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:36] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:36.574636
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:39] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:40.254563
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:43] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:43.924594
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:47] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:47.594725
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:49] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:50] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:51.264765
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:53] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:54] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:54.954599
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:58] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:16:58.624615
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:16:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:01] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:02.294665
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:05] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:05.964561
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:09] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:09.634652
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:12] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:13.304589
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:16] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:16.974571
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:20] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:20.644612
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:23] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:24.304667
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:24] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:27] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:27.974575
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:31] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:31.644569
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:34] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:35.314627
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:39] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:39.804734
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:43] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:43.474958
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:46] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:47.144685
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:80/
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:50] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:50.803932
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:53] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:54.244663
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:57] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:17:57.914499
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:17:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:01] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:01.584510
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:04] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:05.254496
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:08] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:08.924487
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:12] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:12.594461
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:15] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:18:16.264464
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:19] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:18:19.934454
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:23] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:23.594503
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:24] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:26] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:27.264560
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:30] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:30.934547
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:34] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:34.604453
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:37] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:38.274534
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:39] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:41] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:41.944459
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:45] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:45.614462
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:48] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:49.284547
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:49] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:52] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:52.954484
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:53] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:56] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:18:56.624435
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:18:59] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:19:00.294547
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:03] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:19:03.984540
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:07] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:19:07.654550
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:10] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:19:11.314497
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:14] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:19:14.984478
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:18] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:19:18.654460
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:21] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:19:22.323831
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:24] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:25] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:19:25.994502
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:29] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:19:29.664437
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:32] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:19:33.334438
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:36] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:19:37.004510
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:39] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:40] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:19:40.674519
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:43] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:19:44.344483
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:47] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:19:48.014458
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:49] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:51] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:19:51.684483
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:53] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:54] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:19:55.354432
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:58] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:19:59.024444
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:19:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:02] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:02.694526
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:05] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:06.364451
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:09] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:10.024489
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:13] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:13.694565
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:16] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:17.364555
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:20] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:21.034020
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:24] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:24.694500
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:27] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:28.364442
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:31] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:32.034480
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:35] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:35.704522
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:38] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:39.374423
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:39] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:42] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:43.044592
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:46] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:46.714496
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:49] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:50.384551
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:53] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:54.054450
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:57] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:20:57.724512
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:20:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:00] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:01.394669
+ERROR:__main__:Exception on /temp [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./server.py", line 58, in temp
+    status = json.load(f)
+  File "/usr/lib/python2.7/json/__init__.py", line 290, in load
+    **kw)
+  File "/usr/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:01] "GET /temp HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:04] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:05.064471
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:08] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:08.734535
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:12] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:13.224498
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:16] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:16.894462
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:20] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:20.564540
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:23] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:24.224634
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:24] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:27] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:27.894459
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:31] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:31.564505
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:34] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:35.234442
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:38] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:38.904426
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:39] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:42] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:42.574460
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:45] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:46.244490
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:49] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:49.914497
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:53] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:53.584494
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:56] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:21:57.254431
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:21:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:00] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:00.924426
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:04] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:04.594489
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:07] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:08.264433
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:11] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:11.934492
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:15] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:15.604540
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:18] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:19.274480
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:22] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:22.933859
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:24] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:26] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:26.624510
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:29] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:30.294469
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:33] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:33.964432
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:37] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:37.634794
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:39] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:40] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:41.304446
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:44] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:44.974476
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:48] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:48.644433
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:49] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:51] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:52.314594
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:53] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:55] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:55.984561
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:22:59] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:22:59.654501
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:02] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:03.324480
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:06] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:06.983820
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:07] "GET /temp HTTP/1.1" 200 -
+ERROR:__main__:Exception on /temp [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./server.py", line 52, in temp
+    configPackage = {'setTemp': int(setTemp)}
+TypeError: int() argument must be a string or a number, not 'NoneType'
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:07] "POST /temp HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:10] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:10.654432
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:13] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:14.324503
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:17] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:17.984518
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:21] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:21.654471
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:24] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:25.324715
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:28] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:28.994478
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:32] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:32.664512
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:35] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:36.334490
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:39] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:40.004475
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:43] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:43.674546
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:46] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:47.344514
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:49] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:50] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:51.014473
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:53] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:54] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:54.684441
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:57] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:23:58.354459
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:23:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:01] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.35,2017-01-07 23:24:02.014436
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:05] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:05.684506
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:08] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:09.354447
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:12] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:13.024500
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:16] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:16.694510
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:19] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:20.364564
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:23] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:24.034521
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:24] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:27] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:27.704527
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:30] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:31.364481
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:34] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:35.034460
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:38] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:38.704551
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:39] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:41] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:42.374444
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:45] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:46.044495
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:49] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:49.714536
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:53] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:56] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:24:56.534165
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:24:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:80/
+INFO:root:,low,140,60.4616,2017-01-07 23:25:00.204056
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:03] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:25:03.864438
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:07] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:25:07.534517
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:10] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:25:11.204642
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:14] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:25:14.864467
+ERROR:__main__:Exception on /temp [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./server.py", line 52, in temp
+    configPackage = {'setTemp': int(setTemp)}
+TypeError: int() argument must be a string or a number, not 'NoneType'
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:14] "POST /temp?5 HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:18] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:25:18.524498
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:21] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:25:22.194491
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:24] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:25] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:25:25.864564
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:28] "GET /temp HTTP/1.1" 200 -
+ERROR:__main__:Exception on /temp [POST]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./server.py", line 52, in temp
+    configPackage = {'setTemp': int(setTemp)}
+TypeError: int() argument must be a string or a number, not 'NoneType'
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:28] "POST /temp?5 HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:29] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,140,60.4616,2017-01-07 23:25:29.534501
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:31] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:32] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:32] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:25:33.204770
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:33] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:35] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:36] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:36] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:36] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:36] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:25:36.874674
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:37] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:37] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:37] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:39] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:25:40.544891
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:43] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:25:44.214704
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:47] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:25:47.884804
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:49] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:51] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:25:51.554967
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:53] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:54] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:25:55.224662
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:58] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:25:58.894692
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:25:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:02] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.575,2017-01-07 23:26:03.384663
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:06] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:26:07.054723
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:09] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:26:10.725306
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:13] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:26:14.395542
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:17] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.575,2017-01-07 23:26:18.065034
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:20] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:26:21.734744
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:24] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:26:25.404680
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:28] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:26:29.074662
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:31] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:26:32.744937
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:35] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:26:36.414691
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:39] "GET /temp HTTP/1.1" 200 -
+INFO:root:,high,5,60.4616,2017-01-07 23:26:40.085036
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:44] "POST /temp?setTemp=5 HTTP/1.1" 200 -
+INFO:root:,high,5,60.575,2017-01-07 23:26:44.574649
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:47] "POST /temp?setTemp=500 HTTP/1.1" 200 -
+INFO:root:,high,5,60.575,2017-01-07 23:26:48.246235
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:49] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:51] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:26:51.914482
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:53] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:54] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:26:55.584464
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:58] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:26:59.254524
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:26:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:02] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:02.924492
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:05] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:06.594526
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:09] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:10.264466
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:13] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:13.934528
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:16] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:17.604476
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:20] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:21.273884
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:24] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:24.934545
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:27] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:28.604511
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:31] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:32.277758
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:35] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:35.944515
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:38] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:39.664496
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:39] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:42] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:43.334482
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:46] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:47.004625
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:49] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:50.674458
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:53] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.575,2017-01-07 23:27:54.344504
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:27:57] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:27:58.014474
+INFO:root:,low,500,60.6866,2017-01-07 23:28:03.283919
+INFO:werkzeug: * Running on http://0.0.0.0:80/
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:06] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:06.953853
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:09] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:10.644505
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:13] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:14.314446
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:17] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:17.994506
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:20] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:21.663875
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:24] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:25.334468
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:28] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:29.004511
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:31] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:32.674415
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:35] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:36.344499
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:39] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:40.014493
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:42] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:43.684434
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:46] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:47.354444
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:49] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:50] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:51.014488
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:53] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:54.684511
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:57] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:28:58.354460
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:28:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:01] "GET / HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:29:02.023854
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:05] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:29:05.694537
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:08] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:29:09.364446
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:12] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:29:13.034438
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:16] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.6866,2017-01-07 23:29:16.704506
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:19] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:20.374472
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:23] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:24.034453
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:24] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:27] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:27.704529
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:30] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:31.374438
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:34] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:35.044488
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:37] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:38] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:38.714479
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:39] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:40] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:42] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:42.384539
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:44] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:45] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:46.054443
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:48] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:49] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:49.724468
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:51] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:53] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:53.394545
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:55] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:56] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:29:57.054439
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:29:59] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:00] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:30:00.724475
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:02] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:04] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:30:04.394537
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:04] "POST /temp?setTemp=500 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:06] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:07] "GET / HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:30:08.064503
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:10] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:11] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:30:11.734524
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:13] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:14] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.8,2017-01-07 23:30:15.404421
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:17] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:18] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.9116,2017-01-07 23:30:19.074431
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:21] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:22] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.9116,2017-01-07 23:30:22.733858
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:26] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,500,60.9116,2017-01-07 23:30:26.404493
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:26] "POST /temp?setTemp=120 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:28] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:29] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,120,60.9116,2017-01-07 23:30:30.074440
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:32] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:33] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,120,60.8,2017-01-07 23:30:33.744494
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:33] "POST /temp?setTemp=180 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:35] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:36] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:37] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.8,2017-01-07 23:30:37.414570
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:38] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:39] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:40] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.9116,2017-01-07 23:30:41.084528
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:41] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:42] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:43] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:44] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.9116,2017-01-07 23:30:44.754438
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:45] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:46] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:47] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:48] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.9116,2017-01-07 23:30:48.444467
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:49] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:50] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:51] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.9116,2017-01-07 23:30:52.114453
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:52] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:53] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:54] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:55] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.8,2017-01-07 23:30:55.784437
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:56] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:57] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:58] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:30:59] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.9116,2017-01-07 23:30:59.454536
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:00] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:01] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:02] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.9116,2017-01-07 23:31:03.124508
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:03] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:04] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:05] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:06] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.9116,2017-01-07 23:31:06.794503
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:07] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:08] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:09] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:10] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.9116,2017-01-07 23:31:10.464524
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:11] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:12] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:13] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.8,2017-01-07 23:31:14.134574
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:14] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:15] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:16] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:17] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.8,2017-01-07 23:31:17.804470
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:18] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:19] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:20] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:21] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.9116,2017-01-07 23:31:21.473858
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:22] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:23] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:24] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.9116,2017-01-07 23:31:25.144448
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:25] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:26] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:27] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:28] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.8,2017-01-07 23:31:28.804463
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:29] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:30] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:31] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:32] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.8,2017-01-07 23:31:32.474482
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:33] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:34] "GET /temp HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:35] "GET /temp HTTP/1.1" 200 -
+INFO:root:,low,180,60.8,2017-01-07 23:31:36.144482
+INFO:werkzeug:192.168.1.104 - - [07/Jan/2017 23:31:36] "GET /temp HTTP/1.1" 200 -
