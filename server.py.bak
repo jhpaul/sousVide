@@ -30,22 +30,28 @@ app = Flask(__name__)
 
 @app.context_processor
 def util():
+#	with open(configFile, 'r') as f:
+#	    config = json.load(f)
 	with open(statusFile, 'r') as f:
 	    status = json.load(f)
-#	with open (historyFile, 'r') as f:
-#	    historyList = json.load(f)
-	#historyList = ""
-	#historyList = str(list(reader)).replace("'", '"')
-	#print historyList
+#	csvFile = open(historyFile, 'r')
+#	#reader = csv.reader(csvFile,  quoting=csv.QUOTE_NONE, escapechar='', quotechar='')
+#	#rows = list(reader)
+	historyList = ""
+	# json.dump(rows, historyList)
+	historyList = str(list(reader)).replace("'", '"')
+	# .replace('OFF', '"OFF"')
+	# historyList = historyList.translate("'OFF'","OFF")
+	print historyList
 	power = status['power']
 	setTemp = status['setTemp']
 	currentTemp = status['temp']
 	datetime = status['datetime']
-#	return dict(history=historyList, power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
-	return dict(power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
+	return dict(history=historyList, power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
 	
 @app.route('/')
 def index():
+#	return "hello"
 	return render_template('index.html')
 
 @app.route('/temp', methods=['GET','PUT','POST'])
@@ -56,7 +62,7 @@ def temp():
 		currentTemp = status['temp']
 		setTemp = request.args.get('setTemp')
 		package = jsonify(method=request.method, temp=currentTemp, setTemp=setTemp)
-		logging.info(str(request.method)+","+str(currentTemp)+","+str(setTemp))
+		# logging.info(str(request.method)+","+str(currentTemp)+","+str(setTemp))
 		print setTemp
 		configPackage = {'setTemp': int(setTemp)}
 		with open(configFile, 'w') as f:
@@ -70,7 +76,7 @@ def temp():
 		currentTemp = status['temp']
 		datetime = status['datetime']
 		package = jsonify(method=request.method,temp=currentTemp, setTemp=setTemp, datetime=datetime, power=power)
-		logging.info(str(request.method)+","+str(currentTemp)+","+str(setTemp))
+		# logging.info(str(request.method)+","+str(currentTemp)+","+str(setTemp))
 		return package
 
 

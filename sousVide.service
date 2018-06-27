@@ -1,0 +1,18 @@
+
+#sudo cp sousVide.service /lib/systemd/system/sousVide.service
+#sudo chmod 644 /lib/systemd/system/myscript.service
+#sudo systemctl daemon-reload
+#sudo systemctl enable myscript.service
+
+[Unit]
+Description=Start the SousVide controller and Webserver
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /home/pi/sousVide/cliControl.py
+ExecStart=/usr/bin/python /home/pi/sousVide/server.py
+
+
+[Install]
+WantedBy=multi-user.target

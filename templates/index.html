@@ -6,16 +6,33 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width">
     <style>
+    body * {
+      box-sizing: border-box;
+    }
       #loading {
         display: none;
+        /*padding: 5px;*/
+        width: 60px;
+        height: 60px;
+        vertical-align: middle;
+        text-align: center;
+        opacity: 0;
         position: fixed;
-        width: 5%;
-        height: 5px;
-        background-color: orange;
-        margin:2em 50%;
-        padding: 0;
+        top:-100px;
+        left: 300px;
+        border-radius: 50%;
+        background-color: rgba(255,255,255,.70);
+
+          /*width: 20px;*/
         
       }
+      #loading * {
+        width: 80%;
+        height: 80%;
+        margin-top: 10%
+        /*padding:10px;*/
+      }
+
       body {
         font-family: sans-serif;
         font-size: 1em;
@@ -38,8 +55,21 @@
         width: auto;
         /*margin-right: 10px;*/
       }
-      a {
-        width: auto;
+      input {
+        background-color: #EEEEEE;
+        padding: 10px;
+        border: 2px solid black;
+        display: block;
+        margin:10px 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 700;
+        /*margin-right: 10px;*/
+      }
+
+      button {
+        width: 100%;
         padding: 10px;
         background-color: #333333;
         color: white;
@@ -60,40 +90,145 @@
         padding-bottom: 3px;
         border-bottom: 1px solid black;
       }
+      label {
+        font-weight: 700;
+        margin-top: 10px;
+        display: block;
+      }
+
     </style>
     <script>
       $(function() {
+
+          function slide(){
+              $("#loading").delay(100).show().animate({opacity: 1, top:"10px"},'slow').delay(5000).show().animate({opacity: 1, top:"-100px"},'slow');
+
+          }
+          function hide(){
+              $("#loading").finish();
+              // $("#loading").delay(100).show().animate({opacity: 1, top:"-100px"},'slow');
+          }
+          function getTemp() {
+            $.get('/temp', function(data) {
+              $("#power-status").html(data.power);
+              $("#temp-status").html(data.temp + "&deg;F");
+              $("#temp-setting").html(data.setTemp + "&deg;F");
+              $("#datetime").html(data.datetime);
+              console.log("refresh state");
+              // hide()
+            });
+          }
+
+
+
         setInterval(function(){
         //Call ajax here
-        $.get('/temp', function(data) {
-          $("#temp-status").html(data.temp + "&deg;F");
-          $("#temp-setting").html(data.setTemp + "&deg;F");
-          $("#datetime").html(data.datetime);
-          console.log("refresh state");
-        });
-      },1000)
+          getTemp();
 
+        },1000)
+      function setTemperature(temp){
+        slide();
+        if ( Number(temp) > 0) {
+          $.post('/temp?setTemp='+temp);
+          console.log("setTemp = "+ temp)
+        } else {
+          $("#tempField").val("Numbers Only")
+          hide();
+        }
+        
+      }
       $("#setTemp").click(function (){
-        $.post('/temp?setTemp='+
-          $("#tempField").val());
+        setTemperature($("#tempField").val())
+        $("#loading").show()
+        getTemp();
       })
+      $("#tempField").click(function(){
+        $("#tempField").val("");
       });
+      $("#tempField").keypress(function (e) {
+        if (e.which == 13) {
+          setTemperature($("#tempField").val())
+           $("#loading").show()
+           getTemp();
+          return false;    //<---- Add this line
+        }});
+
+      
+      });
+
+
+
     </script>
+
+<!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Status');
+        data.addColumn('string', 'SetTemp');
+        data.addColumn('string', 'Temp');
+        data.addColumn('string', 'Time');
+        {% autoescape false %}
+        #var hist = {{history}}
+
+        {% endautoescape %}
+        #hist.forEach(function(each){
+        #  each = [each[0],parseFloat(each[1]),parseFloat(each[2]),each[3]]
+        #})
+        #console.log(hist)
+
+
+        #data.addRows(hist);
+
+        // Set chart options
+        var options = {'title':'How Much Pizza I Ate Last Night',
+                       'width':400,
+                       'height':300};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+    <div id=dummy></div>
+    <div id="chart_div"></div>
+
 <body>
+  <div id="loading">
+    <svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="uil-ripple"><rect x="0" y="0" width="100" height="100" fill="none" class="bk"/><g> <animate attributeName="opacity" dur="2s" repeatCount="indefinite" begin="0s" keyTimes="0;0.33;1" values="1;1;0"/><circle cx="50" cy="50" r="2.05244" stroke="#4e6acb" fill="none" stroke-width="6" stroke-linecap="round"><animate attributeName="r" dur="2s" repeatCount="indefinite" begin="0s" keyTimes="0;0.33;1" values="0;22;44"/></circle></g><g><animate attributeName="opacity" dur="2s" repeatCount="indefinite" begin="1s" keyTimes="0;0.33;1" values="1;1;0"/><circle cx="50" cy="50" r="28.593" stroke="#d8351a" fill="none" stroke-width="6" stroke-linecap="round"><animate attributeName="r" dur="2s" repeatCount="indefinite" begin="1s" keyTimes="0;0.33;1" values="0;22;44"/></circle></g>
+    </svg>
+  </div>
   <article>
-  <div id="loading"></div>
+
 
   <noscript>
     Javascript Off <a href="/">Refresh</a>
   </noscript>
     <section>
-    <h2>Crockpot</h2>
-      <h3>Status</h3>
-      <code id="temp-status"> {{ temp }}&deg;F</code>
-      <code id="temp-setting"> {{ setTemp }}&deg;F</code>
-      <code id="datetime"> {{ datetime }}</code>
-      <input type="text" name="" id="tempField" value=120>
-      <button id="setTemp">Set Temp!</button>
+    <h2>
+      Sous Vide Crockpot Controller
+    </h2>
+    
+      <label>Power:</label> <code id="power-status"> {{ power }}</code>
+      <label>Temp:</label> <code id="temp-status"> {{ temp }}&deg;F</code>
+      <label>Set Temp:</label> <code id="temp-setting"> {{ setTemp }}&deg;F</code>
+      <label>Time:</label> <code id="datetime"> {{ datetime }}</code>
+      <input type="text" name="" id="tempField" value="Enter Temp">
+      <button id="setTemp">Set Temp! </button>
+
     </section>
   </article>
   </body>
