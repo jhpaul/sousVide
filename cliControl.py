@@ -5,15 +5,21 @@ from datetime import datetime
 import logging
 import json
 import os
-logging.basicConfig(filename='tempLog.csv',level=logging.DEBUG)
+import pytz
 
+# datetime.datetime
+# datetime.timedelta
+# datetime.timezone  (python 3.2+)
 
 setTemp = 0
 spikeCounter = 0
-checkRate = 2
-configFile = 'config.json'
-statusFile = 'status.json'
-historyFile = 'history.json'
+checkRate = 1 
+fileDir = os.path.dirname(os.path.realpath(__file__))
+logging.basicConfig(filename=fileDir+'tempLog.csv',level=logging.DEBUG)
+print fileDir
+configFile = fileDir+'/config.json'
+statusFile = fileDir+'/status.json'
+historyFile = fileDir+'/history.json'
 
 def sh(script):
     os.system("bash -c '%s'" % script)
@@ -30,17 +36,26 @@ while True:
 	# print str(status)
 	temp = status['temp']
 	setTemp = status['setTemp']
+	d_aware = datetime.now(pytz.timezone("US/Eastern"))
 	if temp < setTemp:
 #		print str(datetime.now())+", low, "+str(temp)
 #		logging.info(str(datetime.now())+", low, "+str(temp))
-		logging.info(",low,"+ str(setTemp)+","+str(temp)+","+str(datetime.now()))
-		package = {'power': 'ON', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(datetime.now())}
-		print str(package)
+		logging.info(",low,"+ str(setTemp)+","+str(temp)+","+str(d_aware))
+		package = {'power': 'ON', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}
+		histPackage = { str(d_aware): {'power': 'ON', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}}
+		csvPackage = 'ON,'+str(setTemp)+','+str(round(temp, 2))+','+str(d_aware)+"\n"
 		with open(statusFile, 'w') as f:
 			json.dump(package, f)
-		# with open(historyFile, 'a') as h:
-		# 	json.dump(package, h)
-
+		with open(historyFile) as h:
+			print h.read()
+			try:
+				data = json.load(h)
+				data.update(histPackage)
+			except ValueError:
+				data = {} 
+				data.update(histPackage)
+		with open(historyFile, 'a') as r:
+			json.dump(data, r)
 
 		switch.setPower(1)
 		time.sleep(checkRate)
@@ -56,19 +71,27 @@ while True:
 		# print "high, "+ str(setTemp)+", "+str(temp)+", "+str(datetime.now())
 		logging.info(",high,"+ str(setTemp)+","+str(temp)+","+str(datetime.now()))
 #		logging.info(str(datetime.now())+", high, "+str(temp))
-		package = {'power': 'OFF', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(datetime.now())}
-		csvPackage = 'OFF,'+str(setTemp)+','+str(round(temp, 2))+','+str(datetime.now())+"\n"
+		package = {'power': 'OFF', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}
+		histPackage = { str(d_aware): {'power': 'ON', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}}
+		csvPackage = 'OFF,'+str(setTemp)+','+str(round(temp, 2))+','+str(d_aware)+"\n"
 
-		print str(package)
+		print str(histPackage)
 		with open(statusFile, 'w') as f:
 			json.dump(package, f)
-
-		with open(historyFile, 'a') as f:
-			f.write(csvPackage)
+		with open(historyFile) as h:
+			try:
+				data = json.load(h)
+				data.update(histPackage)
+			except ValueError:
+				data = {} 
+				data.update(histPackage)
+		data.update(histPackage)
+		with open(historyFile, 'a') as h:
+			json.dump(data, h)
 		# sh("echo " + str(package) + " >> history.json")
 
 		switch.setPower(0)
-		time.sleep(2)
+		time.sleep(checkRate)
 		spikeCounter = 0
 		temp = tempRead.read_temp()
 

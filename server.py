@@ -2,6 +2,7 @@
 import tempRead
 from flask import Flask
 from flask import Markup, request, flash, redirect, url_for, render_template, jsonify
+import os
 import time
 import sys
 import logging
@@ -12,11 +13,12 @@ import HTMLParser
 html_parser = HTMLParser.HTMLParser()
 
 from datetime import datetime
-logging.basicConfig(filename='tempLog2.csv',level=logging.DEBUG)
-
-configFile = 'config.json'
-statusFile = 'status.json'
-historyFile = 'history.json'
+fileDir = os.path.dirname(os.path.realpath(__file__)) 
+print fileDir
+logging.basicConfig(filename=fileDir+'/tempLog2.csv',level=logging.DEBUG)
+configFile = fileDir+'/config.json'
+statusFile = fileDir+'/status.json'
+historyFile = fileDir+'/history.json'
 
 app = Flask(__name__)
 
@@ -32,8 +34,8 @@ app = Flask(__name__)
 def util():
 	with open(statusFile, 'r') as f:
 	    status = json.load(f)
-#	with open (historyFile, 'r') as f:
-#	    historyList = json.load(f)
+	with open (historyFile, 'r') as f:
+	    historyList = (f.read())
 	#historyList = ""
 	#historyList = str(list(reader)).replace("'", '"')
 	#print historyList
@@ -41,8 +43,8 @@ def util():
 	setTemp = status['setTemp']
 	currentTemp = status['temp']
 	datetime = status['datetime']
-#	return dict(history=historyList, power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
-	return dict(power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
+	return dict(history=historyList, power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
+#	return dict(power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
 	
 @app.route('/')
 def index():
@@ -73,6 +75,23 @@ def temp():
 		logging.info(str(request.method)+","+str(currentTemp)+","+str(setTemp))
 		return package
 
+
+
+@app.route('/log', methods=['GET','PUT','POST'])
+def log():
+	if request.method in ('GET'):
+		with open(historyFile, 'r') as f:
+		    status = (f.read())
+		return status
+#		currentTemp = status['temp']
+#		setTemp = request.args.get('setTemp')
+#		package = jsonify(method=request.method, temp=currentTemp, setTemp=setTemp)
+#		logging.info(str(request.method)+","+str(currentTemp)+","+str(setTemp))
+#		print setTemp
+#		configPackage = {'setTemp': int(setTemp)}
+#		with open(configFile, 'w') as f:
+#			json.dump(configPackage, f)
+#		return package
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0',port=80)

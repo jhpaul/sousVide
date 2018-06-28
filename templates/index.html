@@ -182,21 +182,24 @@
         data.addColumn('string', 'Temp');
         data.addColumn('string', 'Time');
         {% autoescape false %}
-        #var hist = {{history}}
+        
+
+	var hist = {{history}}
+        
+	console.log("History Loaded")
 
         {% endautoescape %}
-        #hist.forEach(function(each){
-        #  each = [each[0],parseFloat(each[1]),parseFloat(each[2]),each[3]]
-        #})
-        #console.log(hist)
+        for (var each in hist) {
+	          each = [each[0],parseFloat(each[1]),parseFloat(each[2]),each[3]]
+	}
+	console.log(hist)
 
-
-        #data.addRows(hist);
+        data.addRows(hist);
 
         // Set chart options
         var options = {'title':'How Much Pizza I Ate Last Night',
-                       'width':400,
-                       'height':300};
+                 'width':400,
+                      'height':300};
 
         // Instantiate and draw our chart, passing in some options.
         var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
@@ -223,8 +226,8 @@
     </h2>
     
       <label>Power:</label> <code id="power-status"> {{ power }}</code>
-      <label>Temp:</label> <code id="temp-status"> {{ temp }}&deg;F</code>
-      <label>Set Temp:</label> <code id="temp-setting"> {{ setTemp }}&deg;F</code>
+      <label>Current Temp:</label> <code id="temp-status"> {{ temp }}&deg;F</code>
+      <label>Target Temp:</label> <code id="temp-setting"> {{ setTemp }}&deg;F</code>
       <label>Time:</label> <code id="datetime"> {{ datetime }}</code>
       <input type="text" name="" id="tempField" value="Enter Temp">
       <button id="setTemp">Set Temp! </button>
