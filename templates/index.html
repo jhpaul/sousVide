@@ -185,26 +185,26 @@
         {% autoescape false %}
         
 
-	var hist = {{history}}
+#	var hist = {{history}}
         
 	console.log("History Loaded")
 
         {% endautoescape %}
-        for (var each in hist) {
-	          each = [each[0],parseFloat(each[1]),parseFloat(each[2]),each[3]]
-	}
-	console.log(hist)
+ #       for (var each in hist) {
+#	          each = [each[0],parseFloat(each[1]),parseFloat(each[2]),each[3]]
+#	}
+#	console.log(hist)
 
-        data.addRows(hist);
+ #       data.addRows(hist);
 
         // Set chart options
-        var options = {'title':'How Much Pizza I Ate Last Night',
-                 'width':400,
-                      'height':300};
+  #      var options = {'title':'How Much Pizza I Ate Last Night',
+   #              'width':400,
+    #                  'height':300};
 
         // Instantiate and draw our chart, passing in some options.
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
+     #   var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+      #  chart.draw(data, options);
       }
     </script>
     <div id=dummy></div>
