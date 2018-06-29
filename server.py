@@ -43,7 +43,9 @@ def util():
 	setTemp = status['setTemp']
 	currentTemp = status['temp']
 	datetime = status['datetime']
-	return dict(history=historyList, power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
+	with open(configFile, 'r') as f:
+            config = json.load(f)
+	return dict(history=historyList, mode = config['mode'], power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
 #	return dict(power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
 	
 @app.route('/')
