@@ -13,7 +13,7 @@ import pytz
 
 setTemp = 0
 spikeCounter = 0
-checkRate = 1 
+checkRate = 2 
 fileDir = os.path.dirname(os.path.realpath(__file__))
 logging.basicConfig(filename=fileDir+'tempLog.csv',level=logging.DEBUG)
 print fileDir
@@ -44,10 +44,12 @@ while True:
 		package = {'power': 'ON', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}
 		histPackage = { str(d_aware): {'power': 'ON', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}}
 		csvPackage = 'ON,'+str(setTemp)+','+str(round(temp, 2))+','+str(d_aware)+"\n"
+
+		print str(package)
 		with open(statusFile, 'w') as f:
 			json.dump(package, f)
 		with open(historyFile) as h:
-			print h.read()
+			#print h.read()
 			try:
 				data = json.load(h)
 				data.update(histPackage)
@@ -75,7 +77,7 @@ while True:
 		histPackage = { str(d_aware): {'power': 'ON', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}}
 		csvPackage = 'OFF,'+str(setTemp)+','+str(round(temp, 2))+','+str(d_aware)+"\n"
 
-		print str(histPackage)
+		print str(package)
 		with open(statusFile, 'w') as f:
 			json.dump(package, f)
 		with open(historyFile) as h:

@@ -9,9 +9,9 @@ Description=Start the SousVide controller and Webserver
 After=multi-user.target
 
 [Service]
-Type=idle
-ExecStart=/usr/bin/python /home/pi/sousVide/cliControl.py
-ExecStart=/usr/bin/python /home/pi/sousVide/server.py
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/tmux new-session -s sousVide -d /opt/sousVide/sousVide.sh
 
 
 [Install]
