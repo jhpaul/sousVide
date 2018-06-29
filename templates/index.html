@@ -111,6 +111,7 @@
           function getTemp() {
             $.get('/temp', function(data) {
               $("#power-status").html(data.power);
+	      $("#mode-status").html(data.mode);
               $("#temp-status").html(data.temp + "&deg;F");
               $("#temp-setting").html(data.setTemp + "&deg;F");
               $("#datetime").html(data.datetime);
@@ -226,6 +227,7 @@
     </h2>
     
       <label>Power:</label> <code id="power-status"> {{ power }}</code>
+      <label>Mode:</label> <code id="mode-status"> {{ mode }}</code>
       <label>Current Temp:</label> <code id="temp-status"> {{ temp }}&deg;F</code>
       <label>Target Temp:</label> <code id="temp-setting"> {{ setTemp }}&deg;F</code>
       <label>Time:</label> <code id="datetime"> {{ datetime }}</code>

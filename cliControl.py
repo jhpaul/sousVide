@@ -37,13 +37,13 @@ while True:
 	temp = status['temp']
 	setTemp = status['setTemp']
 	d_aware = datetime.now(pytz.timezone("US/Eastern"))
-	if temp < setTemp:
+	if (str(config['mode']) == 'heat' and temp < setTemp) or (str(config['mode']) == 'cool' and temp > setTemp):
 #		print str(datetime.now())+", low, "+str(temp)
 #		logging.info(str(datetime.now())+", low, "+str(temp))
-		logging.info(",low,"+ str(setTemp)+","+str(temp)+","+str(d_aware))
-		package = {'power': 'ON', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}
-		histPackage = { str(d_aware): {'power': 'ON', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}}
-		csvPackage = 'ON,'+str(setTemp)+','+str(round(temp, 2))+','+str(d_aware)+"\n"
+		logging.info(",low,"+str(config['mode'])+","+ str(setTemp)+","+str(temp)+","+str(d_aware))
+		package = {'power': 'ON', 'mode': str(config['mode']),'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}
+		histPackage = { str(d_aware): {'power': 'ON', 'mode': str(config['mode']),'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}}
+		csvPackage = 'ON,'+str(config['mode'])+','+str(setTemp)+','+str(round(temp, 2))+','+str(d_aware)+"\n"
 
 		print str(package)
 		with open(statusFile, 'w') as f:
@@ -56,7 +56,7 @@ while True:
 			except ValueError:
 				data = {} 
 				data.update(histPackage)
-		with open(historyFile, 'a') as r:
+		with open(historyFile, 'w') as r:
 			json.dump(data, r)
 
 		switch.setPower(1)
@@ -68,14 +68,16 @@ while True:
 	# 	spikeCounter = 0
 	# 	print "PEAK PROTECTION, "+ str(setTemp)+", "+str(temp)+", "+str(datetime.now())
 	# 	logging.info(",PEAK PROTECTION,"+ str(setTemp)+","+str(temp)+","+str(datetime.now()))
-	if temp >= setTemp:
+	if (str(config['mode']) == 'heat' and temp >= setTemp) or (str(config['mode']) == 'cool' and temp <= setTemp):
+#		print str(datetime.now())+", low, "+str(temp)
+#	if temp >= setTemp:
 #		print str(datetime.now())+", high, "+str(temp)
 		# print "high, "+ str(setTemp)+", "+str(temp)+", "+str(datetime.now())
-		logging.info(",high,"+ str(setTemp)+","+str(temp)+","+str(datetime.now()))
+		logging.info(",high,"+ str(config['mode'])+","+str(setTemp)+","+str(temp)+","+str(datetime.now()))
 #		logging.info(str(datetime.now())+", high, "+str(temp))
-		package = {'power': 'OFF', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}
-		histPackage = { str(d_aware): {'power': 'ON', 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}}
-		csvPackage = 'OFF,'+str(setTemp)+','+str(round(temp, 2))+','+str(d_aware)+"\n"
+                package = {'power': 'OFF', 'mode': str(config['mode']), 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}
+		histPackage = { str(d_aware): {'power': 'ON',  'mode': str(config['mode']), 'setTemp': setTemp, 'temp': round(temp, 2), 'datetime': str(d_aware)}}
+		csvPackage = 'OFF,'+str(config['mode'])+','+str(setTemp)+','+str(round(temp, 2))+','+str(d_aware)+"\n"
 
 		print str(package)
 		with open(statusFile, 'w') as f:
@@ -87,8 +89,7 @@ while True:
 			except ValueError:
 				data = {} 
 				data.update(histPackage)
-		data.update(histPackage)
-		with open(historyFile, 'a') as h:
+		with open(historyFile, 'w') as h:
 			json.dump(data, h)
 		# sh("echo " + str(package) + " >> history.json")
 

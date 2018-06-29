@@ -36,14 +36,17 @@ def util():
 	    status = json.load(f)
 	with open (historyFile, 'r') as f:
 	    historyList = (f.read())
+	with open(configFile, 'r') as c:
+            config = json.load(c) 
 	#historyList = ""
 	#historyList = str(list(reader)).replace("'", '"')
 	#print historyList
+        mode = config['mode']
 	power = status['power']
 	setTemp = status['setTemp']
 	currentTemp = status['temp']
 	datetime = status['datetime']
-	return dict(history=historyList, power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
+	return dict(history=historyList, mode=mode, power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
 #	return dict(power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
 	
 @app.route('/')
@@ -60,18 +63,35 @@ def temp():
 		package = jsonify(method=request.method, temp=currentTemp, setTemp=setTemp)
 		logging.info(str(request.method)+","+str(currentTemp)+","+str(setTemp))
 		print setTemp
-		configPackage = {'setTemp': int(setTemp)}
-		with open(configFile, 'w') as f:
-			json.dump(configPackage, f)
-		return package
+                configPackage = {'setTemp': int(setTemp), 'mode':'heat'}
+		
+                data = {}
+                config = {}
+                with open(configFile) as c:
+                    try:
+                        data = json.load(c)
+                        data["setTemp"] = int(setTemp)
+                        
+                    except ValueError:
+                        data = {}
+                        data.update(configPackage)
+                with open(configFile, 'w') as h:
+                    json.dump(data,h)
+                    
+                
+                return package
 	else:
+                config = {}
 		with open(statusFile, 'r') as f:
 		    status = json.load(f)
+                with open(configFile, 'r') as c:
+                    config = json.load(c) 
 		power = status['power']
 		setTemp = status['setTemp']
 		currentTemp = status['temp']
 		datetime = status['datetime']
-		package = jsonify(method=request.method,temp=currentTemp, setTemp=setTemp, datetime=datetime, power=power)
+                mode = str(config['mode'])
+		package = jsonify(method=request.method, mode=mode, temp=currentTemp, setTemp=setTemp, datetime=datetime, power=power)
 		logging.info(str(request.method)+","+str(currentTemp)+","+str(setTemp))
 		return package
 
