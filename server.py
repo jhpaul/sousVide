@@ -62,7 +62,7 @@ def temp():
 		setTemp = request.args.get('setTemp')
 		package = jsonify(method=request.method, temp=currentTemp, setTemp=setTemp)
 		logging.info(str(request.method)+","+str(currentTemp)+","+str(setTemp))
-		print setTemp
+                print "New Temp Setting: "+str(setTemp)
                 configPackage = {'setTemp': int(setTemp), 'mode':'heat'}
 		
                 data = {}
@@ -114,7 +114,7 @@ def log():
 #		return package
 
 if __name__ == '__main__':
-	app.run(host='0.0.0.0',port=80)
+	app.run(host='0.0.0.0',port=80, threaded=True)
 
 
 

@@ -13,10 +13,10 @@ import pytz
 
 setTemp = 0
 spikeCounter = 0
-checkRate = 2 
+checkRate = 1 
 fileDir = os.path.dirname(os.path.realpath(__file__))
 logging.basicConfig(filename=fileDir+'tempLog.csv',level=logging.DEBUG)
-print fileDir
+#print fileDir
 configFile = fileDir+'/config.json'
 statusFile = fileDir+'/status.json'
 historyFile = fileDir+'/history.json'
@@ -28,7 +28,7 @@ def sh(script):
 # 	json.dump({'power': 'OFF', 'setTemp': 0, 'temp': 0, 'datetime': str(datetime.now())}, f)
 
 while True:
-
+        data={}
 	with open(configFile, 'r') as f:
 	    config = json.load(f)
 
@@ -37,7 +37,7 @@ while True:
 	temp = status['temp']
 	setTemp = status['setTemp']
 	d_aware = datetime.now(pytz.timezone("US/Eastern"))
-	if (str(config['mode']) == 'heat' and temp < setTemp) or (str(config['mode']) == 'cool' and temp > setTemp):
+	if (str(config['mode']) == 'HEAT' and temp < setTemp) or (str(config['mode']) == 'COOL' and temp > setTemp):
 #		print str(datetime.now())+", low, "+str(temp)
 #		logging.info(str(datetime.now())+", low, "+str(temp))
 		logging.info(",low,"+str(config['mode'])+","+ str(setTemp)+","+str(temp)+","+str(d_aware))
@@ -57,8 +57,7 @@ while True:
 				data = {} 
 				data.update(histPackage)
 		with open(historyFile, 'w') as r:
-			json.dump(data, r)
-
+                        json.dump(data, r)
 		switch.setPower(1)
 		time.sleep(checkRate)
 		spikeCounter = spikeCounter + checkRate
@@ -68,7 +67,7 @@ while True:
 	# 	spikeCounter = 0
 	# 	print "PEAK PROTECTION, "+ str(setTemp)+", "+str(temp)+", "+str(datetime.now())
 	# 	logging.info(",PEAK PROTECTION,"+ str(setTemp)+","+str(temp)+","+str(datetime.now()))
-	if (str(config['mode']) == 'heat' and temp >= setTemp) or (str(config['mode']) == 'cool' and temp <= setTemp):
+	if (str(config['mode']) == 'HEAT' and temp >= setTemp) or (str(config['mode']) == 'COOL' and temp <= setTemp):
 #		print str(datetime.now())+", low, "+str(temp)
 #	if temp >= setTemp:
 #		print str(datetime.now())+", high, "+str(temp)
@@ -88,9 +87,10 @@ while True:
 				data.update(histPackage)
 			except ValueError:
 				data = {} 
-				data.update(histPackage)
-		with open(historyFile, 'w') as h:
-			json.dump(data, h)
+				data.update(histPackage) 
+                        data.update(histPackage)
+                with open(historyFile, 'a') as h:
+	                json.dump(data, h)
 		# sh("echo " + str(package) + " >> history.json")
 
 		switch.setPower(0)
