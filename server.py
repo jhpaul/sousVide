@@ -46,7 +46,7 @@ def util():
 	setTemp = status['setTemp']
 	currentTemp = status['temp']
 	datetime = status['datetime']
-	return dict(history=historyList, mode=mode, power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
+	return dict(history=historyList, mode=mode, power=power, avgTemp=currentTemp, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
 #	return dict(power=power, temp=currentTemp, setTemp=setTemp, datetime = str(datetime))
 	
 @app.route('/')
