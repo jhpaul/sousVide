@@ -15,3 +15,5 @@ def setPower(status):
 	if status == 0: 
 		io.output(power_pin, False)
 
+def getPower():
+    return io.input(power_pin)
